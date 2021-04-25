@@ -1,8 +1,8 @@
 :root {
-  --title: #333;
-  --background: #ededed;
-  --button-border: #333;
-  --button: #555;
+  --title: rgb(52, 106, 255);
+  --background: rgb(241, 220, 245);
+  --button-edge: #333;
+  --button: rgb(255, 240, 108);
   --button-hover: #444;
   --button-active: #333;
   --border: #222;
@@ -17,7 +17,7 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Courier New", monospace;
   font-size: 62.5%;
   line-height: 1.6;
 }
@@ -52,7 +52,7 @@ h1 {
   border-radius: 6px;
   border: 2px solid var(--button-border);
   background-color: var(--button);
-  color: var(--background);
+  color: #222;
   font-family: inherit;
   font-size: 1.6rem;
   outline: none;
